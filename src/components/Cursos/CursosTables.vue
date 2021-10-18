@@ -12,7 +12,7 @@
     <v-chip :color="item.estado ? 'info' : 'grey' ">{{ item.estado ? 'Si' : 'No' }}</v-chip>
   </template> 
    <template v-slot:[`item.fecha_registro`]="{item}" >
-    <v-chip color="success"> ${{ item.fecha_registro }}</v-chip>
+    <v-chip color="success">{{ item.fecha_registro }}</v-chip>
   </template>
 
 
