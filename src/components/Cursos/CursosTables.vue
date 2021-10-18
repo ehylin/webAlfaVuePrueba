@@ -98,7 +98,7 @@ export default {
           { text: 'Duración', value: 'duracion' },
           { text: 'Costo', value: 'costo' },
           { text: 'Terminado', value: 'estado' },
-          { text: 'Fecha', value: 'fecha' },
+          { text: 'Fecha', value: 'fecha_registro' },
            { text: 'Acciones', value: 'acciones' },
         ],
       }

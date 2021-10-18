@@ -32,7 +32,7 @@
                 <div class="font-weight-normal">
                   <strong>Fecha de registro</strong> 
                 </div>
-                <div>: {{ fecha_registro }}</div>
+                <div> {{ curso.fecha_registro }}</div>
               </div>
             </v-timeline-item>
           </v-timeline>
